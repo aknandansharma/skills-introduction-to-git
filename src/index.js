@@ -321,7 +321,6 @@ function clearPattern(startRow, startCol) {
 function updateScore() {
   document.getElementById("score").textContent = score;
 
-  // Add logic to calculate level via patternsCleared counter
   // Update high score if current score exceeds it
   if (score > highScore) {
     highScore = score;
